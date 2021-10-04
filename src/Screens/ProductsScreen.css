@@ -1,0 +1,18 @@
+.categories {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.items {
+  padding: 6px;
+  border-radius: 6%;
+}
+.items:hover {
+  background-color: var(--primary-color);
+  border-radius: 6%;
+  color: white;
+}
+.separator {
+  padding: 6px;
+}

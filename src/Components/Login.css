@@ -1,0 +1,64 @@
+.main-login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 48px;
+}
+.login-container {
+  background: rgb(252, 145, 3);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 145, 3, 1) 0%,
+    rgba(183, 56, 2, 1) 100%
+  );
+  width: 360px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 2%;
+  margin-bottom: 32px;
+}
+h2 {
+  color: rgb(65, 60, 60);
+  cursor: pointer;
+}
+h2:hover {
+  color: white;
+}
+.h2-white {
+  color: white;
+}
+.input {
+  height: 38px;
+  border-width: 0px;
+  border-bottom: 1px solid var(--dark--color);
+  padding: 4px;
+  font-size: 18px;
+  margin-top: 18px;
+  outline: none;
+}
+.login-btn {
+  margin-top: 28px;
+  height: 64px;
+  border-width: 0px;
+  border-radius: 2%;
+  background: rgb(252, 145, 3);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 145, 3, 1) 0%,
+    rgba(183, 56, 2, 1) 100%
+  );
+  color: whitesmoke;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "roboto";
+  outline: none;
+}
+.login-btn:hover {
+  background-color: white;
+  color: var(--main-color);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}

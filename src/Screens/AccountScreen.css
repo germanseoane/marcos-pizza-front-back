@@ -1,0 +1,57 @@
+.main-account {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.btn-logout {
+  margin-top: 28px;
+  height: 64px;
+  border-width: 0px;
+  border-radius: 2%;
+  background: rgb(252, 145, 3);
+  background: linear-gradient(
+    90deg,
+    rgba(252, 145, 3, 1) 0%,
+    rgba(183, 56, 2, 1) 100%
+  );
+  color: whitesmoke;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: "roboto";
+  outline: none;
+  width: 360px;
+}
+.btn-logout:hover {
+  color: black;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pro-input {
+  display: none;
+}
+.icon-container {
+  background-color: var(--primary-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 200%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  margin-left: 70%;
+  margin-top: -28%;
+}
